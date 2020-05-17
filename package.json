@@ -1,0 +1,17 @@
+{
+  "name": "_websocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "websocketServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.1-security",
+    "http-server": "^0.12.3",
+    "websocket": "^1.0.31"
+  }
+}
