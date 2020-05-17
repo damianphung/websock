@@ -31,6 +31,8 @@ colors.sort(function(a,b) { return Math.random() > 0.5; } );
 var server = http.createServer(function(request, response) {
   // Not important for us. We're writing WebSocket server,
   // not HTTP server
+  response.writeHead(200);
+  response.end('Hello, World!');  
 });
 server.listen(webSocketsServerPort, function() {
   console.log((new Date()) + " Server is listening on port "
