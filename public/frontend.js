@@ -21,7 +21,7 @@ $(function () {
     return;
   }
   // open connection
-  var connection = new WebSocket('wss://13.54.34.68:1337');
+  var connection = new WebSocket('wss://52.62.5.225:1337');
   connection.onopen = function () {
     // first we want users to enter their names
     input.removeAttr('disabled');
